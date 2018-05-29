@@ -3,15 +3,20 @@
   "version": "2.5.1",
   "description": "This package contains an array of parsed FontAwesome icons.",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "prepublish": "npm run build",
     "parse-icons": "node ./lib/parser.js",
-    "build": "npm run parse-icons",
+    "build": "npm run parse-icons && tsc",
     "test": "test"
   },
   "keywords": [
     "fontawesome"
   ],
   "author": "Alexander Cheremisin",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^10.1.3",
+    "typescript": "^2.8.3"
+  }
 }

@@ -1,7 +1,7 @@
 "use strict";
-
+Object.defineProperty(exports, "__esModule", { value: true });
 var fa = require('../dist/fontawesome.json');
-
-module.exports = function FontAwesome() {
-  return fa || [];
+function FontAwesome() {
+    return fa || [];
 }
+exports.FontAwesome = FontAwesome;
