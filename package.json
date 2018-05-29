@@ -1,0 +1,17 @@
+{
+  "name": "parsed-icons",
+  "version": "2.5.1",
+  "description": "This package contains an array of parsed FontAwesome icons.",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "parse-icons": "node ./lib/parser.js",
+    "build": "npm run parse-icons",
+    "test": "test"
+  },
+  "keywords": [
+    "fontawesome"
+  ],
+  "author": "Alexander Cheremisin",
+  "license": "ISC"
+}
