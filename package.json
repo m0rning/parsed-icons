@@ -1,6 +1,6 @@
 {
   "name": "parsed-icons",
-  "version": "2.5.1",
+  "version": "2.5.3",
   "description": "This package contains an array of parsed FontAwesome icons.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
